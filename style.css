@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(209, 232, 233);
+}
+
+/* FIRST SECTION STYLES  */
+
+#pageFirstSection {
+    height: 100vh;
+    width: 100%;
+}
+
+/* NAV BAR STYLES */
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    padding: 0px 60px 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.navBarLogoContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.navBarLogo {
+    height: 150px;
+    margin-right: 0;
+}
+
+.navBarCompName {
+    font-family: Roboto;
+    margin-left: -45px;
+    font-size: 25px
+}
+
+.navBarLinkContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.navBarLinkContainer a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    color: black;
+}
+
+.navBarButtonContainer {
+    display: flex;
+    gap: 15px;
+}
+
+.navBarButtonContainer button:first-child {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.navBarButtonContainer button:last-child {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#heroSection {
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftHeroSection {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 120px;
+}
+
+.leftHeroSection h1 {
+    font-family: Roboto;
+    font-size: 35px;
+}
+
+.leftHeroSection .firstParagraph {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.leftHeroSectionInput {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.leftHeroSectionInput input {
+    background-color: transparent;
+    border: none;
+}
+
+.locationContainer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.leftHeroSectionInput button {
+    padding: 8px 15px;
+    background-color: green;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+}
+
+.heroSecondParagraphContainer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.heroThirdParagraph {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 14px;
+     margin-top: 90px;
+}
+
+.heroBrandContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.heroBrandContainer div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rightHeroSection {
+    height: 100%;
+    width: 40%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: #fff;
+}
+
+.rightHeroSection img {
+    height: 300px;
+    
+}
