@@ -1,186 +1,422 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(209, 232, 233);
+  background-color: rgb(209, 232, 233);
+}
+.gridHeader h1,
+.gridHeader p,
+.gridContainer h2,
+.gridContainer p,
+.textContainer h1,
+.textContainer p {
+  margin: 0;
 }
 
 /* FIRST SECTION STYLES  */
 
 #pageFirstSection {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 }
 
 /* NAV BAR STYLES */
 
 nav {
-    height: 80px;
-    width: 100%;
-    display: flex;
-    padding: 0px 60px 0px 0px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  padding: 0px 60px 0px 0px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
 }
 
 .navBarLogoContainer {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0;
 }
 
 .navBarLogo {
-    height: 150px;
-    margin-right: 0;
+  height: 150px;
+  margin-right: 0;
 }
 
 .navBarCompName {
-    font-family: Roboto;
-    margin-left: -45px;
-    font-size: 25px
+  font-family: Roboto;
+  margin-left: -45px;
+  font-size: 25px;
 }
 
 .navBarLinkContainer {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .navBarLinkContainer a {
-    text-decoration: none;
-    font-family: Roboto;
-    font-size: 16px;
-    color: black;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  color: black;
 }
 
 .navBarButtonContainer {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .navBarButtonContainer button:first-child {
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-family: Roboto;
-    font-size: 16px;
-    padding: 8px 15px;
-    border-radius: 25px;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .navBarButtonContainer button:last-child {
-    background-color: green;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 25px;
-    border: none;
-    font-family: Roboto;
-    font-size: 16px;
-    cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  border: none;
+  font-family: Roboto;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 #heroSection {
-    height: calc(100vh - 80px);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .leftHeroSection {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 120px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 200px;
 }
 
 .leftHeroSection h1 {
-    font-family: Roboto;
-    font-size: 35px;
+  font-family: Roboto;
+  font-size: 35px;
 }
 
 .leftHeroSection .firstParagraph {
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
 }
 
 .leftHeroSectionInput {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 500px;
-    padding: 15px 25px;
-    background-color: #fff;
-    border-radius: 25px;
-    font-family: Roboto;
-    font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 25px;
+  font-family: Roboto;
+  font-size: 16px;
 }
 
 .leftHeroSectionInput input {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .locationContainer {
-    display: flex;
-    align-items: center;
-    gap: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .leftHeroSectionInput button {
-    padding: 8px 15px;
-    background-color: green;
-    color: #fff;
-    border-radius: 25px;
-    border: none;
+  padding: 8px 15px;
+  background-color: green;
+  color: #fff;
+  border-radius: 25px;
+  border: none;
 }
 
 .heroSecondParagraphContainer p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
 }
 
 .heroThirdParagraph {
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     font-size: 14px;
-     margin-top: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin-top: 90px;
 }
 
 .heroBrandContainer {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .heroBrandContainer div {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .rightHeroSection {
-    height: 100%;
-    width: 40%;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 40%;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .circle {
-    height: 300px;
-    width: 300px;
-    border-radius: 150px;
-    background-color: #fff;
+  height: 320px;
+  width: 320px;
+  border-radius: 160px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rightHeroSection img {
-    height: 300px;
-    
+  height: 500px;
+  margin-top: -50px;
+}
+
+.spanContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 8rem;
+  right: 0;
+}
+
+.spanContainer span {
+  font-family: Roboto;
+  padding: 8px 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.spanContainer span:first-child {
+  background-color: #fff;
+  color: green;
+}
+
+.spanContainer span:last-child {
+  background-color: green;
+  color: white;
+}
+
+.jobAlert {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  gap: 10px;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-family: Roboto;
+  position: absolute;
+  left: 4rem;
+}
+
+.candidatesContainer {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  position: absolute;
+  bottom: 8rem;
+  right: 8rem;
+}
+
+.candidatesImageContainer {
+  display: flex;
+}
+
+.candidatesImageContainer div {
+  /* background-color: #fff; */
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.imageContainer1 {
+  background-color: green;
+}
+
+.imageContainer2 {
+  background-color: rgb(124, 173, 175);
+}
+
+#pageSecondSection {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+#pageSecondSection div:first-child {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.textCartoonContainer {
+  background-color: rgb(233, 232, 203);
+  padding: 8px 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#secondCartoon {
+  height: 350px;
+}
+
+.textContainer h1 {
+  font-family: Roboto;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.textContainer p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.textContainer button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  background-color: green;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+#firstCartoon {
+  height: 250px;
+}
+
+.gridHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.gridHeader p span {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+/* .gridHeader a {
+  width: 30%;
+} */
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 290px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 20px;
+}
+
+.gridContainer article {
+  background-color: rgb(233, 232, 203);
+  height: 200px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  gap: 15px;
+}
+
+.gridContainer article h2 {
+  font-size: 20px;
+}
+
+#iconsContainer {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+#pageThirdSection {
+  padding: 30px 270px;
+}
+
+.thirdSectionGridContainer {
+  display: grid;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(2, 250px);
+}
+
+.thirdSectionGridContainer article {
+  border: 1;
+  border-width: 2px;
+  border-color: green;
+  border-style: solid;
+  height: 250px;
+  width: 600px;
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.container span {
+  padding: 2px 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
 }
